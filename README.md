@@ -8,13 +8,6 @@ The Food Tracker is a simple Python application designed to help users log their
 - **Visualize Progress**: View detailed graphs showcasing macronutrient distribution and progress towards calorie and macronutrient goals.
 - **User-Friendly Interface**: Simple command-line interface to navigate through options.
 
-## Goals
-
-- **Caloric Goal Limit**: 3000 kcal
-- **Protein Goal**: 180 grams
-- **Fat Goal**: 80 grams
-- **Carbohydrate Goal**: 300 grams
-
 ## Requirements
 
 To run this application, you need to have Python 3 installed, along with the following libraries:

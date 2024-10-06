@@ -1,21 +1,31 @@
-# Food Tracker
+# Calorie and Macronutrient Tracker
 
-The Food Tracker is a simple Python application designed to help users log their daily food intake and visualize their macronutrient progress towards set nutritional goals. It allows users to track calories, protein, fat, and carbohydrates consumed throughout the day.
+This Python script helps users track their daily food intake and visualize their progress towards calorie and macronutrient (protein, fat, carbs) goals. The program allows users to add new foods, then generates graphical representations of their calorie and macronutrient consumption for the day.
+
+## Table of Contents
+- [Overview](#overview)
+- [Features](#features)
+- [Requirements](#requirements)
+
+## Overview
+
+This project is a calorie and macronutrient tracker where users can:
+- Log foods by inputting their names, calories, protein, fat, and carbohydrate contents.
+- Visualize their daily progress with interactive charts.
+- Track whether they're meeting their daily goals for calories and macronutrients.
 
 ## Features
 
-- **Add New Food**: Input the name and nutritional information (calories, protein, fat, carbs) for each food item.
-- **Visualize Progress**: View detailed graphs showcasing macronutrient distribution and progress towards calorie and macronutrient goals.
-- **User-Friendly Interface**: Simple command-line interface to navigate through options.
-
+- **Food Entry**: Manually enter the food name and its corresponding nutritional values (calories, protein, fat, carbs).
+- **Progress Visualization**: Generate visual charts to see progress:
+  - A pie chart for macronutrient distribution.
+  - Bar chart comparing actual consumption with daily macronutrient goals.
+  - Pie chart of calories consumed vs remaining calories.
+  - A time-based plot showing cumulative calorie consumption over the day.
+  
 ## Requirements
 
-To run this application, you need to have Python 3 installed, along with the following libraries:
-
-- `numpy`
-- `matplotlib`
-
-You can install the required libraries using pip:
+To run this script, you need the following Python libraries:
 
 ```bash
 pip install numpy matplotlib
